@@ -82,6 +82,24 @@ nav ul li a img {
 section {
     width: 100%;
     height: 100vh;
+    align-items: center;
+}
+
+#BoardPrincipal {
+    background-color: rgba(52, 52, 52, 0.46);
+    width: 370px;
+    border-radius: 10px;
+    height: 615px;
+    margin: auto;
+}
+
+#ImagemPrincial {
+    background-image: url("Images/Wallpaper/WhatsApp Image 2020-06-04 at 12.11.43.jpeg");
+    width: 295px;
+    height: 295px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* detalhe (Seção 1) */
@@ -139,15 +157,15 @@ section {
 
 .logoLinguagem {
     width: 75px;
-    /* position: absolute;
-    top: 50%;
-    left: 50%; */
+
 }
 
 /* detalhe seçao 3 */
 
 .h1Preto {
     color: #000000;
+    text-align: center;
+    margin: 0 auto;
 }
 /* Detalhes do rodapé */
 
