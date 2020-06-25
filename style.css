@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.icon {
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+nav {
+    width: 100%;
+    height: 57px;
+    background: #121212;
+    top: 0px;
+    position: fixed;
+}
+
+nav ul img {
+    float: inline-start !important;
+    width: 24px;
+    fill: blue;
+}
+
+nav ul {
+    display: flex;
+    float: right;
+    padding: 0 100px;
+    /* margin: 0 auto; */
+}
+
+nav ul li {
+    list-style: none;
+} 
+
+ 
+
+nav ul li a{
+
+    /* display: flex; */
+    color: rgba(151, 151, 151, 0.87);
+    padding: 45px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+nav ul li a:hover { 
+    color: white;
+}
+
+
+nav ul li a img {
+    width: 24px;
+    fill: blue;
+} 
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+.sec1 {
+    background-image: url("Images/Wallpaper/wallpaperflare.com_wallpaper.jpg");
+}
+
+.sec2 {
+    background-color: #181818;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+position: static;
+left: 0%;
+right: 0%;
+top: 91.02%;
+bottom: 0%;
+display: flex;
+background: #000000;
+}
+
+footer p {
+    color: #ffffff;
+}
