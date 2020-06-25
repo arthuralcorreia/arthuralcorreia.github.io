@@ -1,13 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-.icon {
-
-}
+/* Detalhes gerais */
 
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    color: #ffffff;
 }
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: Bold;
+    line-height: 35px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+#TextoDeApresentaçao {
+    text-align: justify;
+}
+/* Detalhes do menu */
 
 nav {
     width: 100%;
@@ -18,7 +37,7 @@ nav {
 }
 
 nav ul img {
-    float: inline-start !important;
+    /* float: inline-start !important; */
     width: 24px;
     fill: blue;
 }
@@ -33,8 +52,6 @@ nav ul {
 nav ul li {
     list-style: none;
 } 
-
- 
 
 nav ul li a{
 
@@ -60,19 +77,79 @@ nav ul li a img {
     fill: blue;
 } 
 
+/* Detalhes de seçao (GERAL) */
+
 section {
     width: 100%;
     height: 100vh;
 }
 
+/* detalhe (Seção 1) */
+
 .sec1 {
     background-image: url("Images/Wallpaper/wallpaperflare.com_wallpaper.jpg");
+    background-position: auto;
 }
+
+/* detalhe seçao 2 */
 
 .sec2 {
     background-color: #181818;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+#BotaoCurriculo {
+   font-size: 20px; 
+   text-transform: uppercase;
+   color: #ffffff;
+   background-color: rgba(0, 0, 0, 0);
+   border-radius: 10px;
+   width: 227px;
+   height: 54px;
+}
+
+#BotaoCurriculo:hover {
+   color: rgba(207, 207, 207, 0.87);
+   background-color: rgb(22, 22, 22);
+}
+
+#Sobre {
+    width: 77.500em;
+    height: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#BlocoDeDados {
+    display: flex;
+}
+
+.LogoInfo {
+    width: 34px;
+    height: 34px;
+}
+
+.Linguagens {
+    border-top: 113px;
+    background-color: rgba(52, 52, 52, 0.46);
+    width: 127px;
+    height: 127px;
+
+}
+
+.logoLinguagem {
+    width: 75px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+}
+
+/* detalhe seçao 3 */
+
+.h1Preto {
+    color: #000000;
+}
+/* Detalhes do rodapé */
 
 footer {
 position: static;
@@ -82,8 +159,13 @@ top: 91.02%;
 bottom: 0%;
 display: flex;
 background: #000000;
+padding: 45px;
+font-size: 20px;
+    letter-spacing: 0.15px;
 }
 
 footer p {
     color: #ffffff;
+
 }
+
