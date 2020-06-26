@@ -15,6 +15,7 @@
 }
 
 .Linguagens {
+    justify-self: center;
     border-top: 113px;
     background-color: rgba(52, 52, 52, 0.46);
     border-radius: 10px;

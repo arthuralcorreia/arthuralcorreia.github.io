@@ -1,7 +1,16 @@
 
-.BoardProjeto {
-    background-color: rgba(51, 56, 56, 0.493);
-    width: 233px;
-    height: 505px;
+#gridDeProjetos {
+    width: 80%;
+    height: 505px; 
     row-gap: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+    grid-gap: 5px 5px;
+}
+
+.BoardProjeto {
+    background-color: aqua;
+    border-radius: 10px;
+    background-color: rgba(52, 52, 52, 0.46);
 }
