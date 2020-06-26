@@ -6,6 +6,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: #ffffff;
+    flex-wrap: wrap;
 }
 
 h1 {
