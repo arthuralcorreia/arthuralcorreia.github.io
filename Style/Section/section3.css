@@ -3,4 +3,12 @@
     color: #000000;
     text-align: center;
     margin: 0 auto;
+    row-gap: 2/4;
 }
+
+.sec3 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
+}   

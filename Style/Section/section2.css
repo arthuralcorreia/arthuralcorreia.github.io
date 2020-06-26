@@ -2,9 +2,15 @@
 .sec2 {
     background-color: #181818;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 
 #BlocoDeDados {
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: 2 /4;
 }

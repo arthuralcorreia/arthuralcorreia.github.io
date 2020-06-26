@@ -3,4 +3,6 @@
     background-image: url("Images/Wallpaper/wallpaperflare.com_wallpaper.jpg");
     background-position: auto;
     align-items: center;
+    display: grid;
 }
+

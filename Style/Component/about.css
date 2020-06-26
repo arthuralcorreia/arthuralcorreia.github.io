@@ -8,9 +8,15 @@
     height: 250px;
     text-align: center;
     margin: 0 auto;
+    grid-row: 1/2;
+    align-self: end;
+    justify-self: end;
 }
 
 .LogoInfo {
     width: 34px;
     height: 34px;
+}
+.Icon {
+    height: 60%;
 }

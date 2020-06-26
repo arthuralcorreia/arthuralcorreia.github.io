@@ -5,17 +5,22 @@ nav {
     background: #121212;
     top: 0px;
     position: fixed;
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    align-items: center;
 }
 
-nav ul img {
-    /* float: inline-start !important; */
-    width: 24px;
+nav img {
+    margin-left: 10px;
+    justify-self: start;
+    width: 2em;
     fill: blue;
 }
 
 nav ul {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     float: right;
     padding: 0 100px;
     /* margin: 0 auto; */
@@ -29,9 +34,8 @@ nav ul li a{
 
     /* display: flex; */
     color: rgba(151, 151, 151, 0.87);
-    padding: 45px;
-    font-weight: 500;
-    font-size: 20px;
+    padding: 1em;
+    font-size: 1em;
     line-height: 24px;
     letter-spacing: 0.15px;
     text-decoration: none;

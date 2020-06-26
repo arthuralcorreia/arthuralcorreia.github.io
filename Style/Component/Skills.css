@@ -4,16 +4,26 @@
     width: 560px;
 }
 
+#GridDeHabilidade {
+    display: grid;
+    height: 305px;
+    width: 558px;
+    grid-gap: 25px 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
 
 .Linguagens {
     border-top: 113px;
     background-color: rgba(52, 52, 52, 0.46);
-    width: 127px;
-    height: 127px;
     border-radius: 10px;
+    display: grid;
 }
 
 
 .logoLinguagem {
-    width: 75px;
+    width: 75%;
+    justify-self: center;
+    align-self: center;
 }
