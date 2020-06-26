@@ -82,7 +82,6 @@ nav ul li a img {
 section {
     width: 100%;
     height: 100vh;
-    align-items: center;
 }
 
 #BoardPrincipal {
@@ -90,7 +89,55 @@ section {
     width: 370px;
     border-radius: 10px;
     height: 615px;
+    margin:auto;
+    align-items: center;
+    text-align: center;
+}
+
+#CardDeItens {
+    background-color: rgba(52, 52, 52, 0.47);
+    width: 370px;
+    border-radius: 0px;
+    height: 70px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+#CardDeItens ul {
+    display: flex;
+}
+
+#CardDeItens ul li{
+    list-style: none;
+}
+
+#CardDeItens ul li a img{
+    padding-top: 50%;
+    height: 30px;
+    width: 30px;
+    fill: white;
+}
+
+
+#quadro {
     margin: auto;
+    align-items: center;
+    display: flex;
+
+}
+
+#Moldura1 {
+    width: 321px;
+    height: 321px;
+    border-radius: 50%; 
+    background-color: #453E31
+}
+
+#Moldura2 {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%; 
+    background-color: rgba(69, 62, 49, 0.4);
 }
 
 #ImagemPrincial {
@@ -107,6 +154,7 @@ section {
 .sec1 {
     background-image: url("Images/Wallpaper/wallpaperflare.com_wallpaper.jpg");
     background-position: auto;
+    align-items: center;
 }
 
 /* detalhe seçao 2 */
@@ -114,6 +162,11 @@ section {
 .sec2 {
     background-color: #181818;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Habilidades {
+    height: 385px;
+    width: 560px;
 }
 
 #BotaoCurriculo {
@@ -152,6 +205,7 @@ section {
     background-color: rgba(52, 52, 52, 0.46);
     width: 127px;
     height: 127px;
+    border-radius: 10px;
 
 }
 
@@ -166,6 +220,12 @@ section {
     color: #000000;
     text-align: center;
     margin: 0 auto;
+}
+
+.BoardProjeto {
+    background-color: rgba(51, 56, 56, 0.493);
+    width: 233px;
+    height: 505px;
 }
 /* Detalhes do rodapé */
 
