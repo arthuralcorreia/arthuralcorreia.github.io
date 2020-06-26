@@ -1,0 +1,19 @@
+
+#Habilidades {
+    height: 385px;
+    width: 560px;
+}
+
+
+.Linguagens {
+    border-top: 113px;
+    background-color: rgba(52, 52, 52, 0.46);
+    width: 127px;
+    height: 127px;
+    border-radius: 10px;
+}
+
+
+.logoLinguagem {
+    width: 75px;
+}

@@ -1,0 +1,69 @@
+
+#BoardPrincipal {
+    background-color: rgba(52, 52, 52, 0.46);
+    width: 370px;
+    border-radius: 10px;
+    height: 615px;
+    margin:auto;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* Detalhes de seçao (GERAL) */
+
+#CardDeItens {
+    background-color: rgba(52, 52, 52, 0.47);
+    width: 370px;
+    border-radius: 0px;
+    height: 70px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+#CardDeItens ul {
+    display: flex;
+}
+
+#CardDeItens ul li{
+    list-style: none;
+}
+
+#CardDeItens ul li a img{
+    padding-top: 50%;
+    height: 30px;
+    width: 30px;
+    fill: white;
+}
+
+
+#quadro {
+    margin: auto;
+    align-items: center;
+    display: flex;
+
+}
+
+#Moldura1 {
+    width: 321px;
+    height: 321px;
+    border-radius: 50%; 
+    background-color: #453E31
+}
+
+#Moldura2 {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%; 
+    background-color: rgba(69, 62, 49, 0.4);
+}
+
+#ImagemPrincial {
+    background-image: url("Images/Wallpaper/WhatsApp Image 2020-06-04 at 12.11.43.jpeg");
+    width: 295px;
+    height: 295px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

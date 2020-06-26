@@ -1,0 +1,16 @@
+#TextoDeApresentaçao {
+    text-align: justify;
+}
+
+
+#Sobre {
+    width: 77.500em;
+    height: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.LogoInfo {
+    width: 34px;
+    height: 34px;
+}

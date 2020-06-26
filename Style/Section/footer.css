@@ -1,0 +1,19 @@
+
+footer {
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 91.02%;
+    bottom: 0%;
+    display: flex;
+    background: #000000;
+    padding: 45px;
+    font-size: 20px;
+        letter-spacing: 0.15px;
+    }
+    
+    footer p {
+        color: #ffffff;
+    
+    }
+    
