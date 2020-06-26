@@ -1,15 +1,22 @@
 
+#CaixaDoBoard {
+    /* background-color: rgb(255, 255, 255); */
+     width: 370px;
+    border-radius: 10px;
+    height: 615px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    display: grid;
+}
+
 #BoardPrincipal {
     background-color: rgba(52, 52, 52, 0.46);
     width: 370px;
     border-radius: 10px;
-    height: 615px;
-    margin:auto;
-    align-items: center;
-    text-align: center;
+    height: 443px;
+    margin-top: 50%;
 }
-
-
 
 /* Detalhes de seçao (GERAL) */
 
@@ -26,6 +33,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-self: center;
     justify-self: center;
+    align-items: center;
 }
 
 #CardDeItens ul li{
@@ -38,7 +46,7 @@
 
 
 #quadro {
-    margin: auto;
+    margin-top: -50%;
     align-items: center;
     display: grid;
 }
@@ -65,13 +73,10 @@
 
 
 #ImagemPrincial {
-    /* background-image: url("Images/Wallpaper/WhatsApp Image 2020-06-04 at 12.11.43.jpeg"); */
     align-self: center;
     justify-self: center;
-    background-color: white;
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    background-repeat: no-repeat;
     background-size: cover;
 }

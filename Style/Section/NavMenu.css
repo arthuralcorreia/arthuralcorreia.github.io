@@ -23,6 +23,7 @@ nav ul {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     float: right;
     padding: 0 100px;
+    align-self: flex-end;
     /* margin: 0 auto; */
 }
 
@@ -49,6 +50,6 @@ nav ul li a:hover {
 
 
 nav ul li a img {
-    width: 24px;
+    width: 1em;
     fill: blue;
 } 
