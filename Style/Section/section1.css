@@ -3,5 +3,7 @@
     background-position: auto;
     align-items: center;
     display: grid;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 

@@ -1,13 +1,13 @@
 
 #Habilidades {
-    height: 385px;
-    width: 560px;
+    height: 80%;
+    width: 100%;
 }
 
 #GridDeHabilidade {
     display: grid;
-    height: 305px;
-    width: 558px;
+    height: 100%;
+    width: 100%;
     grid-gap: 25px 25px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -24,7 +24,7 @@
 
 
 .logoLinguagem {
-    width: 75%;
+    width: 60%;
     justify-self: center;
     align-self: center;
 }
