@@ -20,7 +20,7 @@
     background-color: rgba(52, 52, 52, 0.46);
     width: 370px;
     border-radius: 10px;
-    height: 65%;
+    height: 60%;
     margin-top: 50%;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -97,3 +97,8 @@
     background-size: cover;
 }
 
+@media only screen and (max-height: 700px) {
+
+    
+
+}
