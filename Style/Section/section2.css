@@ -6,8 +6,6 @@
     align-items: center;
 }
 
-
-
 #BlocoDeDados {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -15,6 +13,7 @@
 }
 
 #BoardSegundaTela {
+    height: 80%;
     width: 80%;
     display: grid;
     align-self: center;

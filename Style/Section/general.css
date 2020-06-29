@@ -13,10 +13,14 @@ body {
 h1 {
     font-size: 40px;
     text-transform: uppercase;
+    font-weight: bold;
+
 }
 
+
 h2 {
-    font-size: 30px;
+    font-size: 2vw;
+    /* font-size: 1vmin; */
     font-style: Bold;
     line-height: 35px;
 }
@@ -32,3 +36,6 @@ section {
     height: 100vh;
 }
 
+p {
+    color: rgb(100, 100, 100);
+}

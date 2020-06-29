@@ -1,18 +1,22 @@
 
 #BotaoCurriculo {
-    font-size: 20px; 
+    font-size: 1.5vw; 
     text-transform: uppercase;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 10px;
-    width: 227px;
+    width: 50%;
     height: 54px;
     margin-left: 25%;
  }
 
  #DetalhesPessoais {
-    Font-Size: 20px;
+    Font-Size: 1vw;
     Line-Height: 23px;
+ }
+
+ #DetalhesPessoais h3 {
+   font-size: 1.5vw;
  }
 
 

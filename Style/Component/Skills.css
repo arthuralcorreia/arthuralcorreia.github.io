@@ -4,19 +4,36 @@
     width: 100%;
 }
 
+
 #GridDeHabilidade {
     display: grid;
-    height: 100%;
     width: 100%;
+    height: auto;
     grid-gap: 25px 25px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-
 }
+
+
+@media only screen and (max-width: 770px) {
+    #GridDeHabilidade {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+
+@media only screen and (max-width: 365px) {
+    #GridDeHabilidade {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+
 
 .Linguagens {
     justify-self: center;
-    border-top: 113px;
     background-color: rgba(52, 52, 52, 0.46);
     border-radius: 10px;
     display: grid;
@@ -25,6 +42,7 @@
 
 .logoLinguagem {
     width: 60%;
+    height: auto;
     justify-self: center;
     align-self: center;
 }

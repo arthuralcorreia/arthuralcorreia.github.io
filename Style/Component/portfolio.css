@@ -1,7 +1,7 @@
 
 #gridDeProjetos {
     width: 80%;
-    height: 505px; 
+    height: 150%; 
     row-gap: 1/2;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -10,7 +10,10 @@
 }
 
 .BoardProjeto {
-    background-color: aqua;
     border-radius: 10px;
     background-color: rgba(52, 52, 52, 0.46);
 }
+
+/* .BoardProjeto:hover {
+    fill: rgba(198, 255, 10, 0.445);
+} */
