@@ -88,7 +88,7 @@
 
 #ImagemPrincial {
     /* background-color: rgb(172, 172, 172); */
-    background: url('/images/Wallpaper/ArthurImagem.jpeg');
+    background: url(/images/Wallpaper/ArthurImagem.jpeg);
     align-self: center;
     justify-self: center;
     width: 90%;
