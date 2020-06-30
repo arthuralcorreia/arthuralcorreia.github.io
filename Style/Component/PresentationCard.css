@@ -18,7 +18,7 @@
 
 #BoardPrincipal {
     background-color: rgba(52, 52, 52, 0.46);
-    width: 370px;
+    width: 100%;
     border-radius: 10px;
     height: 60%;
     margin-top: 50%;
@@ -68,8 +68,8 @@
 #Moldura2 {
     align-self: center;
     justify-self: center;
-    width: 350px;
-    height: 350px;
+    width: 90%;
+    height: 100%;
     border-radius: 50%; 
     background-color: rgba(69, 62, 49, 0.4);
     display: grid;
@@ -87,18 +87,22 @@
 
 
 #ImagemPrincial {
-    background-color: rgb(172, 172, 172);
-    /* background-image: url("Images/Wallpaper/ArthurImagem.jpeg"); */
+    /* background-color: rgb(172, 172, 172); */
+    background: url('/images/Wallpaper/ArthurImagem.jpeg');
     align-self: center;
     justify-self: center;
     width: 90%;
     height: 90%;
     border-radius: 50%;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media only screen and (max-height: 700px) {
 
-    
+    #BoardPrincipal {
+        height: 70%;
+    }
+
 
 }

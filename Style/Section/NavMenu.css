@@ -53,10 +53,3 @@ nav ul li a img {
     width: 1em;
     fill: blue;
 } 
-
-@media only screen and (max-width: 400px) {    
-    nav {
-        grid-template-columns: 50% 50%;
-        height: 70px;
-    }
-}

@@ -9,7 +9,7 @@
 #BlocoDeDados {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-row: 2 /4;
+    grid-row: 2/4;
 }
 
 #BoardSegundaTela {
@@ -19,3 +19,16 @@
     align-self: center;
     justify-self: center;
 }
+
+
+ @media only screen and (max-width: 500px) {
+   #BlocoDeDados {
+       grid-template-columns: 100%;
+       grid-template-rows: 50% 50%;
+       grid-row: 3/4;
+   }
+       .sec2 {
+           overflow: scroll;
+           height: fit-content(100%);
+       }
+   }
