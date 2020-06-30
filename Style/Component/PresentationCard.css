@@ -88,7 +88,7 @@
 
 #ImagemPrincial {
     /* background-color: rgb(172, 172, 172); */
-    background-image: url("/Images/Wallpaper/folder.jpeg" !important);
+    background-image: url("/Images/Wallpaper/folder.jpeg");
     background-image: image-set();
     align-self: center;
     justify-self: center;
