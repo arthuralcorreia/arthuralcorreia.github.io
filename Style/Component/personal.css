@@ -1,36 +1,45 @@
 
-#BotaoCurriculo {
-    font-size: 1.5vw; 
-    text-transform: uppercase;
-    color: #ffffff;
-    background-color: rgba(0, 0, 0, 0);
-    border-radius: 10px;
-    width: 50%;
-    height: 10%;
-    margin-left: 25%;
- }
-
  #DetalhesPessoais {
-    Line-Height: 23px;
+    height: 100%;
+    width: 100%;
  }
 
- #DetalhesPessoais h3 {
-   font-size: 1.5vw;
+ #GridDetalhesPessoais {
+   display: grid;
+   width: auto;
+   height: 100%;
+   grid-gap: 25px 25px;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   grid-row: 1/2;
  }
 
- @media only screen and (max-width: 500px) {
-   #DetalhesPessoais h3 {
-    font-size: 4vw; 
-    Line-Height: 30px;
+ .LogoContato {
+    width: 100%;
+    height: 100%;
+   justify-self: center;
+   background-color: rgba(52, 52, 52, 0.46);
+   border-radius: 10px;
+   display: grid;
+   grid-template-rows: 10% 75% 25%;
+ }
+
+ .LogoContato h4 {
     text-align: center;
+    font-size: 80%;
+ }
 
-   }
+.LogoContato img {
+   height: auto;
+   width: 40%;
+   justify-self: center;
+   align-self: center;
+} 
 
-   #DetalhesPessoais h2 {
-      font-size: 20px;
-      text-align: center;
-   }
+.LogoContato p {
+   font-size: 0.7vw;
+   text-align: center;
+   text-transform: uppercase;
 }
-
 
  

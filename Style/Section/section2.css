@@ -9,7 +9,8 @@
 #BlocoDeDados {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-row: 2/4;
+    grid-row: 2/3;
+    grid-gap: 50px;
 }
 
 #BoardSegundaTela {
