@@ -1,24 +1,10 @@
-.logoLinguagem:hover {
-    scale: 1.15;
-    transition-duration: 1.5s;
-}
-
 .LogoContatoAnimaçãoEspecial:hover {
     background-color: rgba(69, 62, 49, 0.4) !important;
     transition-duration: 1s;
 } 
 
-.LogoContato:hover {
+.LogoContato:hover,  .Linguagens:hover{
     background-color: rgba(52, 52, 52, 0.603);
     transition-duration: 0.5s;
-}
-
-.Linguagens:hover {
-    background-color: rgba(52, 52, 52, 0.603);
-    transition-duration: 0.5s;
-}
-
-.LogoContato img:hover {
     scale: 1.15;
-    transition-duration: 0.5s;
 }
