@@ -46,4 +46,13 @@
    align-self: center;
 }
 
+@media only screen and (max-width: 500px) {
+   .LogoContato p { 
+      font-size: 1.5vw;
+   }
+
+   .LogoContato {
+      max-height: 180px;
+   }
+
  

@@ -28,12 +28,12 @@
 
  @media only screen and (max-width: 500px) {
 
-    #BoardSegundaTela {
-        /* grid-template-rows: 1fr 1fr 1fr; */
-        /* grid-template-columns: 100%; */
+    .sec2 {
+        height: 230vh;
     }
 
     #BlocoDeDados {
-        /* grid-row: 2/3; */
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 100%;
     }
  }
