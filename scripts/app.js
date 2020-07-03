@@ -1,0 +1,1 @@
+const  CardContato = document.querySelectorAll(".LogoContato")
