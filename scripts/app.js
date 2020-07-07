@@ -5,6 +5,11 @@ const FormButton = document.getElementById("BotaoFormulario")
 const GridDetalhes = document.getElementById("GridDetalhesPessoais")
 const formularioDeContato = document.getElementById("formularioDeContato")
 const backForm = document.getElementById("backButton")
+const loader = document.querySelector(".loader")
+
+window.addEventListener("load", () => {
+    loader.className += " hidden"
+})
 
 for(var i = 0; i < LogoContato.length; i++){
     LogoContato[i].addEventListener("mouseover", function () {
@@ -39,6 +44,3 @@ backForm.addEventListener("click", () => {
     GridDetalhes.style.display = "grid"
     formularioDeContato.style.display = "none"
 })
-
-
-console.log(backForm)
