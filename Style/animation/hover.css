@@ -7,9 +7,7 @@
     background-color: rgba(52, 52, 52, 0.603);
     transition-duration: 0.5s;
     scale: 1.15;
+    color: white;
 }
 
-#DownloadButton:hover {
-    background-color: rgba(52, 52, 52, 0.897);
-}
 
