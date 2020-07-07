@@ -2,6 +2,48 @@
 
 /* Detalhes gerais */
 
+.loader {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader img {
+    scale: 2;
+    border-radius: 50%;
+    animation: blink 1.2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0% {
+        scale: 1.5;
+    }
+    50% {
+        scale: 2;
+    }
+    100% {
+        scale: 1.5;
+    }
+}
+
+.loader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
