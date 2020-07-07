@@ -6,9 +6,12 @@
     <title>Arthur Correa</title>
     <link rel="shortcut icon" href="Images/Icons/Logo_White_SF.png" type="image/x-icon">
 
+    <!-- linkagem de scripts -->
+
+
     <!-- Linkagem de estilos -->
 
-        <!-- Estilo de seçoes -->
+        Estilo de seçoes
 
             <link rel="stylesheet" href="Style/Section/general.css">
             <link rel="stylesheet" href="Style/Section/NavMenu.css">
@@ -19,7 +22,6 @@
 
         <!-- Estilo de componetes -->
 
-        <link rel="stylesheet" href="test.css">
 
             <!-- Componetes seçao 1 -->
 
@@ -72,9 +74,9 @@
                 <ul>
                     <li><a href="#"><img src="Images/Icons/Dokument_2-512.png" ></a></li>
                     <li><a href="https://www.youtube.com/user/arthurac1337/"><img src="Images/Icons/YOUTUBE_icon-icons.com_65537.png" ></a></li>
-                    <li><a href="https://github.com/arthuralcorreia"><img src="Images/Icons/github-icon-white-5.jpg" ></a></li>
+                    <li><a href="https://github.com/arthuralcorreia"><img src="Images/Icons/github-icon-white-5.png" ></a></li>
                     <li><a href="https://www.linkedin.com/in/arthuralvescorrea/"><img src="Images/Icons/linkedin-png-icon-2.jpg" ></a></li>
-                    <li><a href="https://twitter.com/arthurac1337"><img src="Images/Icons/twitter-icon-png-white-29.jpg" ></a></li>
+                    <li><a href="https://twitter.com/arthurac1337"><img src="Images/Icons/twitter-icon-png-white-29.png" ></a></li>
                 </ul> 
             </div>
         </div>
@@ -93,31 +95,94 @@
             </div>
             <div id="BlocoDeDados">
                 <div id="DetalhesPessoais">
-                    <h2>Sobre</h2>
-                    <h3>E-MAIL: arthuralcorreia@gmail.com</h3>
-                    <h3>FORMAÇÃO: Bacharel em Ciencias da computação</h3>
-                    <h3>ENDEREÇO: São Paulo, SP - Brasil</h3>
-                    <h3>STATUS DE TRABALHO: Freelancer</h3>
-                    <a href="/downloadFile/ArthurCorrea_Resume.pdf" target="blank"><button id="BotaoCurriculo">Baixar Curriculo</button></a>
-                
+                    <h2>Contato</h2>
+                        <div id="GridDetalhesPessoais">
+                            <a href="mailto: arthuralcorreia@gmail.com" style="color: white; text-decoration: none;"><div class="LogoContato">
+                                <h4>Email</h4>
+                                <img src="Images/Icons/About/mailIcon.png" alt="MailLogo">
+                                <p>arthuralcorreia@gmail.com</p>
+                            </div></a>
+                            <div class="LogoContato">
+                                <h4>Endereço</h4>
+                                <img src="Images/Icons/About/saoPauloIcon.png" alt="SaoPauloMapLogo" style="border-radius: 50%">
+                                <p>São Paulo, Brasil</p> 
+                            </div>
+                            <div id="StatusDeTrabaho" class="LogoContato">
+                                <h4>Status de trabalho</h4>
+                                <img src="Images/Icons/About/freelancer-icon-19.png" alt="developerLogo">
+                                <p>Frellancer</p> 
+                            </div>
+                            <div class="LogoContato">
+                                <h4>Formação</h4>
+                                <img src="Images/Icons/About/CSIcon.png" alt="ComputerScienceLogo">
+                                <p>Ciencia da computaçao
+                                    <br> 2020 - 2023
+                                </p> 
+                            </div>
+                            <div class="LogoContato" id="cardDownload">
+                                <h4>Curriculo</h4>
+                                <img src="Images/Icons/About/icon-download-8.png" alt="AboutLogo">
+                                <div id="CVDownloadButtons"><a href="downloadFile/ArthurCorrea_Resume_light.pdf" target="blank"><button class="DownloadButton">Light_cv</button></a><a href="downloadFile/ArthurCorrea_Resume_dark.pdf" target="blank"><button class="DownloadButton">Dark_CV</button></a></div>
+                                <p>Download</p>
+                            </div>
+                            <div id="BotaoFormulario" class="LogoContatoAnimaçãoEspecial LogoContato ">
+                                <h4>Entre em contato</h4>
+                                <img src="Images/Icons/About/baseline_arrow_forward_black_18dp.png" alt="baselineLogo">
+                                <p></p> 
+                            </div>
+                        </div>
+                        <div id="formularioDeContato">
+                            <button id="backButton">← Voltar</button>
+                            <form>
+                                <label for="formName">Nome</label>
+                                <input type="text" id="formName" name="Nome">
+                                <label for="formSubject">Assunto</label>
+                                <input type="text" id="formSubject" name="Assunto">
+                                <label for="formMessage">Mensagem</label>
+                                <input type="text" id="formMessage" name="Mensagem">
+                                <input type="submit" value="Enviar" id="SendButton"> 
+                            </form>
+                        </div>
                 </div>
                 <div id="Habilidades">
                     <h2>Habilidades</h2>
                         <div id="GridDeHabilidade">  
-                            <div class="Linguagens"><img class="logoLinguagem" src="Images/Icons/1024px-Python-logo-notext.svg.png"></div>
-                            <div class="Linguagens"><img class="logoLinguagem" src="Images/Icons/flask-logo-44C507ABB7-seeklogo.com.png"></div>
-                            <div class="Linguagens"><img class="logoLinguagem" src="Images/Icons/file_type_node_icon_130301.png"></div>
-                            <div class="Linguagens"><img class="logoLinguagem" src="Images/Icons/salesforce-logo.png"></div>
-                            <div class="Linguagens"><img class="logoLinguagem" src="Images/Icons/1200px-React-icon.svg.png"></div>
-                            <div class="Linguagens"><img class="logoLinguagem" src="Images/Icons/django-logo.png"></div>
-                            <div class="Linguagens"><img class="logoLinguagem" src="Images/Icons/sqlIcon.png"></div>
-                            <div class="Linguagens"><img class="logoLinguagem" src="Images/Icons/Git_icon.svg.png"></div>
+                            <div class="Linguagens">
+                                <img class="logoLinguagem" src="Images/Icons/1024px-Python-logo-notext.svg.png">
+                                <p class="logoLinguagem" style="display: none">Automação<br><br>Data Science</p> 
+                            </div>
+                            <div class="Linguagens">
+                                <img class="logoLinguagem" src="Images/Icons/amazon-web-services-logo.png" alt="AWSLogo">
+                                <p class="logoLinguagem" style="display: none">Hospedagem<br><br>Dev Ops</p> 
+                            </div>
+                            <div class="Linguagens">
+                                <img class="logoLinguagem" src="Images/Icons/file_type_node_icon_130301.png" alt="nodeLogo">
+                                <p class="logoLinguagem" style="display: none">Api's<br><br>Microserviços</p> 
+                            </div>
+                            <div class="Linguagens">
+                                <img class="logoLinguagem" src="Images/Icons/salesforce-logo.png" alt="SalesforceLogo">
+                                <p class="logoLinguagem" style="display: none">Marketing<br><br>Vendas<br>CRM</p> 
+                            </div>
+                            <div class="Linguagens">
+                                <img class="logoLinguagem" src="Images/Icons/1200px-React-icon.svg.png" alt="ReactLogo">
+                                <p class="logoLinguagem" style="display: none">Front End<br>Mobile Interfaces</p> 
+                            </div>
+                            <div class="Linguagens">
+                                <img class="logoLinguagem" src="Images/Icons/django-logo.png" alt="djangoLogo">
+                                <p class="logoLinguagem" style="display: none">Back End<br><br>Desenvolvimento Web</p> 
+                            </div>
+                            <div class="Linguagens">
+                                <img class="logoLinguagem" src="Images/Icons/postgre-sql-logo-600AD1A66B-seeklogo.com.png" alt="postgreeLogo">
+                                <p class="logoLinguagem" style="display: none">SQL<br><br>Banco de dados</p> 
+                            </div>
+                            <div class="Linguagens">
+                                <img class="logoLinguagem" src="Images/Icons/html3.png" alt="HTML, CSS & JS logos">
+                                <p class="logoLinguagem" style="display: none">Front-end<br><br>Interfaces</p> 
+                            </div>
                         </div> 
                     </div>
             </div>
         </div>    
-    
-    
     </section>
     <!-- <section class="sec3" id="seçao3">
         <h1 class="h1Preto">Portfolio</h1>
@@ -136,7 +201,10 @@
 
     </section> -->
     <footer>
-        <p>Ver 1.00 | </p>
+        <p>Ver 1.1 | </p>
     </footer>
+
 </body>
+
+<script src="./scripts/app.js"></script>
 </html>

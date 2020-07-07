@@ -1,9 +1,13 @@
-#BotaoCurriculo:hover {
-    color: rgba(207, 207, 207, 0.87);
-    background-color: rgb(22, 22, 22);
- } 
+.LogoContatoAnimaçãoEspecial:hover {
+    background-color: rgba(69, 62, 49, 0.4) !important;
+    transition-duration: 1s;
+} 
 
-.logoLinguagem:hover {
-    width: 70%;
+.LogoContato:hover,  .Linguagens:hover , #backButton:hover {
+    background-color: rgba(52, 52, 52, 0.603);
+    transition-duration: 0.5s;
+    scale: 1.15;
+    color: white;
 }
+
 
