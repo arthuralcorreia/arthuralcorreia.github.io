@@ -97,11 +97,11 @@
                 <div id="DetalhesPessoais">
                     <h2>Contato</h2>
                         <div id="GridDetalhesPessoais">
-                            <div class="LogoContato">
+                            <a href="mailto: arthuralcorreia@gmail.com" style="color: white; text-decoration: none;"><div class="LogoContato">
                                 <h4>Email</h4>
                                 <img src="Images/Icons/About/mailIcon.png" alt="MailLogo">
                                 <p>arthurac1337@hotmail.com</p>
-                            </div>
+                            </div></a>
                             <div class="LogoContato">
                                 <h4>Endereço</h4>
                                 <img src="Images/Icons/About/saoPauloIcon.png" alt="SaoPauloMapLogo" style="border-radius: 50%">
@@ -119,16 +119,29 @@
                                     <br> 2020 - 2023
                                 </p> 
                             </div>
-                            <div class="LogoContato">
+                            <div class="LogoContato" id="cardDownload">
                                 <h4>Curriculo</h4>
                                 <img src="Images/Icons/About/icon-download-8.png" alt="AboutLogo">
+                                <div id="CVDownloadButtons"><a href="downloadFile/ArthurCorrea_Resume_light.pdf" target="blank"><button class="DownloadButton">Light_cv</button></a><a href="downloadFile/ArthurCorrea_Resume_dark.pdf" target="blank"><button class="DownloadButton">Dark_CV</button></a></div>
                                 <p>Download</p>
                             </div>
-                            <div class="LogoContatoAnimaçãoEspecial LogoContato ">
+                            <div id="BotaoFormulario" class="LogoContatoAnimaçãoEspecial LogoContato ">
                                 <h4>Entre em contato</h4>
                                 <img src="Images/Icons/About/baseline_arrow_forward_black_18dp.png" alt="baselineLogo">
                                 <p></p> 
                             </div>
+                        </div>
+                        <div id="formularioDeContato">
+                            <button id="backButton">Voltar</button>
+                            <form>
+                                <label for="formName">Nome</label>
+                                <input type="text" id="formName" name="Nome">
+                                <label for="formSubject">Assunto</label>
+                                <input type="text" id="formSubject" name="Assunto">
+                                <label for="formMessage">Mensagem</label>
+                                <input type="text" id="formMessage" name="Mensagem">
+                                <input type="submit" value="Enviar" id="SendButton"> 
+                            </form>
                         </div>
                 </div>
                 <div id="Habilidades">
@@ -170,8 +183,6 @@
                     </div>
             </div>
         </div>    
-    
-    
     </section>
     <!-- <section class="sec3" id="seçao3">
         <h1 class="h1Preto">Portfolio</h1>

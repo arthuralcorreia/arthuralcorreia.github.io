@@ -3,8 +3,13 @@
     transition-duration: 1s;
 } 
 
-.LogoContato:hover,  .Linguagens:hover{
+.LogoContato:hover,  .Linguagens:hover , #backButton:hover {
     background-color: rgba(52, 52, 52, 0.603);
     transition-duration: 0.5s;
     scale: 1.15;
 }
+
+#DownloadButton:hover {
+    background-color: rgba(52, 52, 52, 0.897);
+}
+
