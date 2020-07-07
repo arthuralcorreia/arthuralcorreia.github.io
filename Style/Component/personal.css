@@ -164,5 +164,8 @@
    .LogoContato {
       max-height: 180px;
    }
+   #StatusDeTrabaho {
+      max-height: 400px;
+   }
 
 }
