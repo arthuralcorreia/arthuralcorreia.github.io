@@ -10,4 +10,14 @@
     color: white;
 }
 
+.mudarCor {
+    color: white;
+    transition-duration: 1s;
+}
+
+.aumentar {
+    scale: 1.15;
+    transition-duration: 1s;
+}
+
 
