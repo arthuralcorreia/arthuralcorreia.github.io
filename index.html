@@ -97,55 +97,22 @@
                 Vamos marcar um café? ☕️</p>
             </div>
             <div id="BlocoDeDados">
-                <div id="DetalhesPessoais">
-                    <h2>Contato</h2>
-                        <div id="GridDetalhesPessoais">
-                            <a href="mailto: arthuralcorreia@gmail.com" style="color: white; text-decoration: none;"><div class="LogoContato">
-                                <h4>Email</h4>
-                                <img src="Images/Icons/About/mailIcon.png" alt="MailLogo">
-                                <p>arthuralcorreia@gmail.com</p>
-                            </div></a>
-                            <div class="LogoContato">
-                                <h4>Endereço</h4>
-                                <img src="Images/Icons/About/saoPauloIcon.png" alt="SaoPauloMapLogo" style="border-radius: 50%">
-                                <p>São Paulo, Brasil</p> 
-                            </div>
-                            <div id="StatusDeTrabaho" class="LogoContato">
-                                <h4>Status de trabalho</h4>
-                                <img src="Images/Icons/About/freelancer-icon-19.png" alt="developerLogo">
-                                <p>Frellancer</p> 
-                            </div>
-                            <div class="LogoContato">
-                                <h4>Formação</h4>
-                                <img src="Images/Icons/About/CSIcon.png" alt="ComputerScienceLogo">
-                                <p>Ciencia da computaçao
-                                    <br> 2020 - 2023
-                                </p> 
-                            </div>
-                            <div class="LogoContato" id="cardDownload">
-                                <h4>Curriculo</h4>
-                                <img src="Images/Icons/About/icon-download-8.png" alt="AboutLogo">
-                                <div id="CVDownloadButtons"><a href="downloadFile/ArthurCorrea_Resume_light.pdf" target="blank"><button class="DownloadButton">Light_cv</button></a><a href="downloadFile/ArthurCorrea_Resume_dark.pdf" target="blank"><button class="DownloadButton">Dark_CV</button></a></div>
-                                <p>Download</p>
-                            </div>
-                            <div id="BotaoFormulario" class="LogoContatoAnimaçãoEspecial LogoContato ">
-                                <h4>Entre em contato</h4>
-                                <img src="Images/Icons/About/baseline_arrow_forward_black_18dp.png" alt="baselineLogo">
-                                <p></p> 
-                            </div>
-                        </div>
-                        <div id="formularioDeContato">
-                            <button id="backButton">← Voltar</button>
-                            <form>
-                                <label for="formName">Nome</label>
-                                <input type="text" id="formName" name="Nome">
-                                <label for="formSubject">Assunto</label>
-                                <input type="text" id="formSubject" name="Assunto">
-                                <label for="formMessage">Mensagem</label>
-                                <input type="text" id="formMessage" name="Mensagem">
-                                <input type="submit" value="Enviar" id="SendButton"> 
-                            </form>
-                        </div>
+                <div id="services">
+                   <h2>Serviços</h2> 
+                   <div id="serviceGrid">
+                    <div class="serviceItem">
+                        <p>Design e desenvolvimento de sites</p>
+                    </div>
+                    <div class="serviceItem">
+                        <p>Automação de tarefas e processo</p>
+                    </div>
+                    <div class="serviceItem">
+                        <p>desenvolvimento de aplicações web</p>
+                    </div>
+                    <div class="serviceItem">
+                        <p>Ciencia de dados</p>
+                    </div>
+                </div>
                 </div>
                 <div id="Habilidades">
                     <h2>Habilidades</h2>
@@ -183,26 +150,62 @@
                                 <p class="logoLinguagem" style="display: none">Front-end<br><br>Interfaces</p> 
                             </div>
                         </div> 
-                    </div>
+                </div>
             </div>
         </div>    
     </section>
-    <!-- <section class="sec3" id="seçao3">
-        <h1 class="h1Preto">Portfolio</h1>
-        <div id="gridDeProjetos">
-            <div class="BoardProjeto"></div>
-            <div class="BoardProjeto"></div>
-            <div class="BoardProjeto"></div>
-            <div class="BoardProjeto"></div>
-            <div class="BoardProjeto"></div>
-            <div class="BoardProjeto"></div>
-            <div class="BoardProjeto"></div>
-            <div class="BoardProjeto"></div>
-            <div class="BoardProjeto"></div>
-            <div class="BoardProjeto"></div>
-        </div>
-
-    </section> -->
+    <section class="sec3" id="seçao3">
+        <div id="DetalhesPessoais">
+            <h2>Contato</h2>
+                <div id="GridDetalhesPessoais">
+                    <a href="mailto: arthuralcorreia@gmail.com" style="color: white; text-decoration: none;"><div class="LogoContato">
+                        <h4>Email</h4>
+                        <img src="Images/Icons/About/mailIcon.png" alt="MailLogo">
+                        <p>arthuralcorreia@gmail.com</p>
+                    </div></a>
+                    <div class="LogoContato">
+                        <h4>Endereço</h4>
+                        <img src="Images/Icons/About/saoPauloIcon.png" alt="SaoPauloMapLogo" style="border-radius: 50%">
+                        <p>São Paulo, Brasil</p> 
+                    </div>
+                    <div id="StatusDeTrabaho" class="LogoContato">
+                        <h4>Status de trabalho</h4>
+                        <img src="Images/Icons/About/freelancer-icon-19.png" alt="developerLogo">
+                        <p>Frellancer</p> 
+                    </div>
+                    <div class="LogoContato">
+                        <h4>Formação</h4>
+                        <img src="Images/Icons/About/CSIcon.png" alt="ComputerScienceLogo">
+                        <p>Ciencia da computaçao
+                            <br> 2020 - 2023
+                        </p> 
+                    </div>
+                    <div class="LogoContato" id="cardDownload">
+                        <h4>Curriculo</h4>
+                        <img src="Images/Icons/About/icon-download-8.png" alt="AboutLogo">
+                        <div id="CVDownloadButtons"><a href="downloadFile/ArthurCorrea_Resume_light.pdf" target="blank"><button class="DownloadButton">Light_cv</button></a><a href="downloadFile/ArthurCorrea_Resume_dark.pdf" target="blank"><button class="DownloadButton">Dark_CV</button></a></div>
+                        <p>Download</p>
+                    </div>
+                    <div id="BotaoFormulario" class="LogoContatoAnimaçãoEspecial LogoContato ">
+                        <h4>Entre em contato</h4>
+                        <img src="Images/Icons/About/baseline_arrow_forward_black_18dp.png" alt="baselineLogo">
+                        <p></p> 
+                    </div>
+                </div>
+                <div id="formularioDeContato">
+                    <button id="backButton">← Voltar</button>
+                    <form>
+                        <label for="formName">Nome</label>
+                        <input type="text" id="formName" name="Nome">
+                        <label for="formSubject">Assunto</label>
+                        <input type="text" id="formSubject" name="Assunto">
+                        <label for="formMessage">Mensagem</label>
+                        <input type="text" id="formMessage" name="Mensagem">
+                        <input type="submit" value="Enviar" id="SendButton"> 
+                    </form>
+                </div>
+            </div>
+    </section>
     <footer>
         <p>Ver 1.1 | </p>
     </footer>
